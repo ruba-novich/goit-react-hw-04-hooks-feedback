@@ -1,13 +1,12 @@
 import React from 'react';
-import FeedBack from './Components/FeedBack/FeedBack';
+import FeedBack from './Components/FeedBack';
+import 'modern-normalize/modern-normalize.css';
 import './styles.css';
 
-function App() {
-  return (
+const App = () => (
     <>
-      <FeedBack />
+      <FeedBack initialValue={0}/>
     </>
   );
-}
 
 export default App;
