@@ -4,9 +4,9 @@ import 'modern-normalize/modern-normalize.css';
 import './styles.css';
 
 const App = () => (
-    <>
-      <FeedBack initialValue={0}/>
-    </>
-  );
+  <>
+    <FeedBack />
+  </>
+);
 
 export default App;
